@@ -1,0 +1,109 @@
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.list {
+  list-style: none;
+  padding: 0;
+}
+.link {
+  text-decoration: none;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+.container {
+  width: 1060px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+.header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.nav-link {
+  color: brown;
+  text-transform: uppercase;
+  font-size: 26px;
+}
+.nav-link::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: blue;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+.nav-link:hover::before {
+  background-color: yellow;
+}
+.task1 {
+  font-size: 20px;
+}
+.task1-title {
+  font-size: 2em;
+}
+.task1-text {
+  font-size: 0.5em;
+}
+.task1-list {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.task1-item {
+  flex-basis: calc((100% - 60px) / 3);
+}
+.task1-item-wrapper {
+  background-color: rgb(251, 204, 212);
+  padding: 20px 24px;
+}
+.task1-item-title,
+.task1-desc {
+  margin-bottom: 5px;
+}
+.task2 {
+  padding: 60px 0;
+  background-color: yellow;
+  background-image: url("https://www.freeiconspng.com/uploads/logo-design-icon-symbol-4.png"),
+    url("https://www.freeiconspng.com/uploads/3d-link-logo-brand-design-png-image-12.png");
+  background-size: 30px, 40px;
+  background-position: left, bottom;
+  background-repeat: repeat-y, repeat-x;
+}
+.task2-img {
+  margin: 0 auto;
+}
+.task3 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  /* background-color: aquamarine; */
+  background-image: url("https://static4.depositphotos.com/1018174/428/i/450/depositphotos_4288241-stock-photo-shining-backgroud.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}
